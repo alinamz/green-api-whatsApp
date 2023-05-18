@@ -33,7 +33,7 @@ function PopupNewChat({ setIsOpen, isOpen, setNumberContact, chats, setChats }) 
         }`}
     >
       <div className="popup__container">
-        <h3 className="popup__title">Введите номер телефона</h3>
+        <h3 className="popup__title">Введите номер телефона с 7 (000 000 00 00)</h3>
         <form className="form" onSubmit={onSubmit}>
           <input class='popup__input' onChange={onChange} type="text" />
           <button
