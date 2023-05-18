@@ -1,0 +1,50 @@
+.chats__header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 47px;
+    background-color: rgba(200, 200,200, 0.3);
+}
+
+.chats__me-avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.chats__buttons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.chats__button-menu{
+    background-image: url(../../image/icons8-меню-2-48\ \(1\).png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    background-color: rgba(200, 200,200, 0.0);
+}
+
+.chats__button-new-chat {
+    background-image: url(../../image/new-chat-icon.png);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    background-color: rgba(200, 200,200, 0.0);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .chats__header {
+    padding-left: 20px;
+  }
+}
