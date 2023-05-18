@@ -1,7 +1,7 @@
 
-.chat-detals {
+.chat-detals__area {
     background-color: #f5f5dc;
-    height: 506px;
+    height: 553px;
     overflow-y: scroll;
     padding-bottom: 20px;
 }
@@ -12,16 +12,15 @@
     margin: 0;
     padding: 0;
     margin-top: 30px;
-    padding-left: 40px;
 }
 
-.section {
+.chat-detals {
     display: flex;
     flex-direction: column;
     width: 60%;
 }
 
-.messages__new-message {
+.chat-detals__new-message {
     height: 100px;
     display: flex;
     align-items: center;
@@ -37,7 +36,7 @@
     position: relative;
 }
 
-.messages__input {
+.chat-detals__input {
     border: none;
     width: 80%;
     height: 50px;
@@ -81,10 +80,9 @@
 }
 
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1024px) {
     .chat-detals__messages {
         width: 60%;
-        padding-left: 20px;
     }
 
     .messages__new-message {

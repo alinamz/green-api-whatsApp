@@ -81,7 +81,7 @@ function ChatDetals({ selectedChat }) {
     return (
         <>
             {(selectedChat === null) ? (
-                <div class='section'>
+                <section class='chat-detals'>
                     <header class='chat-detals__null'>
                         <div class='chat-detals__buttons'>
                             <button class='chat-detals__search-button'></button>
@@ -91,9 +91,9 @@ function ChatDetals({ selectedChat }) {
                     <div class='chat-detals__null-text'>
                         <h1>Создайте чат и начните общение</h1>
                     </div>
-                </div>) : (<section class='section'>
+                </section>) : (<section class='chat-detals'>
                     <MessageSearch selectedChat={selectedChat}></MessageSearch>
-                    <div class='chat-detals'>
+                    <div class='chat-detals__area'>
                         <ul class='chat-detals__messages'>
                             {messages.map((message) => {
                                 return <ChatDetalsMessage message={message} selectedChat={selectedChat}></ChatDetalsMessage>
@@ -101,9 +101,9 @@ function ChatDetals({ selectedChat }) {
                         </ul>
                     </div>
 
-                    <div class='messages__new-message'>
+                    <div class='chat-detals__new-message'>
                         <DebounceInput
-                            className="messages__input"
+                            className="chat-detals__input"
                             placeholder="."
                             minLength={1}
                             debounceTimeout={500}

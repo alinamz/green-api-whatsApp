@@ -1,10 +1,7 @@
 .chats {
     display: flex;
     flex-direction: column;
-    padding-left: 40px;
-}
-
-.container-chats {
+    
     width: 40%;
 }
 
@@ -22,9 +19,8 @@
     border-radius: 10px;
 }
 
-
-@media screen and (max-width: 1024px) {
-    .chats {
-        padding-left: 20px;
-    }
+.chats__container {
+    padding-left: 10px;
 }
+
+

@@ -5,14 +5,11 @@ function Chat({ chat, setSelectedChat }) {
     }
 
     return (
-        <button class='chat' onClick={handleChatSelect}>
-            <img class='chat__avatar' src={chat.avatar} alt='Аватар пользователя' />
-            <div class='chat__info'>
-                <div class='chat__content'>
-                    <h2 class='chat__name'>{chat.name}</h2>
-                    <p class='chat__text'></p>
-                </div>
-                <p class='chat__data'></p>
+        <button class='chats__element' onClick={handleChatSelect}>
+            <img class='chats__element-avatar' src={chat.avatar} alt='Аватар пользователя' />
+            <div class='chats__element-info'>
+                    <h2 class='chat__element-name'>{chat.name}</h2>
+                    <p class='chat__element-text'></p>
             </div>
 
         </button>

@@ -24,9 +24,8 @@
     position: relative;
     word-wrap: break-word;
     font-size: 18px;
-    
+    left: 25px;
 }
-
 
 
 .chat-detals__message ::before {
