@@ -6,6 +6,11 @@
 1. В личном кабинете получить `IdInstance` и `ApiTokenInstance`
 1. Чтобы запустить приложение локально выполнить `npm install` и затем `npm start`
 
+# Используемые инструменты
+- React
+-REST API
+
+
 # Demo 
 https://alinamz.github.io/green-api-whatsApp/
 
